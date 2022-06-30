@@ -380,8 +380,7 @@ class Constraints {
     });
     return { moves, captures };
   }
-
-  static constraintsKnight(args: ConstraintArguments): Options {
+Static constraintsKnight(args: ConstraintArguments): Options {
     const { piece, piecePositions } = args;
     const moves = [];
     const captures = [];
