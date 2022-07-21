@@ -335,7 +335,6 @@ class Constraints {
     }
     return result;
   }
-
   static constraintsBishop(args: ConstraintArguments): Options {
     return Constraints.constraintsDiagonal(args);
   }
